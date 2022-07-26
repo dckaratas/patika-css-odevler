@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.searchBarContainer{
+    background-color: #EEEEEE;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+#searchBar{
+    width: 270px;
+}
+.linksContainer{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.linksContainerItem{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fistLinks{
+    height: 100%;
+    background-color: #7EE5DA;
+    margin: 2px;
+    padding: 10px;
+}
+.secondLinks{
+    padding: 5px;
+    width: 35%;
+    background-color: #70CCC2;
+    font-size: small;
+    margin: 2px;
+
+}
+.thirdLinks{
+    background-color: #62B3AA;
+    font-size: small;
+    margin: 2px;
+}
+footer{
+    margin-top: 5px;
+}
